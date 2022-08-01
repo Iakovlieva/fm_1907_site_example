@@ -62,3 +62,30 @@ button{
     text-align: left;       
 }
 
+@media screen and (max-width:500px){
+    .outer{
+        display:flex;
+        flex-direction: column;
+    }
+    .inner{
+        display:block;
+        width: 100%;
+    }
+
+    .picture{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;   
+        background-position: right;   
+    }
+    .margin-header{
+        margin-top:0; 
+    }
+    h1{
+        font-size: 2rem;   
+    }
+    
+    .font-20{
+        font-size: 1rem;
+    }
+}
